@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import isPalindrome from '../src/palindrome'
 
-describe('isPalindrome()', function(){
+describe.only('isPalindrome()', function(){
 
   it('should be a function', function(){
     expect(isPalindrome).to.be.a('function')
