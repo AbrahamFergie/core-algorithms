@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import bubbleSort from '../src/bubbleSort'
 
-describe.only('bubbleSort()', function(){
+describe('bubbleSort()', function(){
 
   it('should be a function', function(){
     expect(bubbleSort).to.be.a('function')

@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import collatzConjecture from '../src/collatzConjecture'
 
-describe.only('collatzConjecture()', function(){
+describe('collatzConjecture()', function(){
 
   it('should be a function', function(){
     expect(collatzConjecture).to.be.a('function')
