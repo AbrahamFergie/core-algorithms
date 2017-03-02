@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import mergeSort from '../src/mergeSort'
 
-describe.only('mergeSort()', function(){
+describe('mergeSort()', function(){
 
   it('should be a function', function(){
     expect(mergeSort).to.be.a('function')

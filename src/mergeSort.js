@@ -1,5 +1,4 @@
 const merger = function(left, right){
-  console.log('left: ',left, 'right: ',right)
 
   var result = []
 
@@ -18,7 +17,6 @@ const merger = function(left, right){
 }
 
 export default function mergeSort(data){
-  console.log('data: ',data)
   if(data.length < 2){
     return data
   }
