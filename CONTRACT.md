@@ -160,7 +160,8 @@ Classic
   const numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
   binarySearch(numbers, 45)
   // => 8
-  Graphing and Geometry
+
+##Graphing and Geometry
 
 #closestPair
 
