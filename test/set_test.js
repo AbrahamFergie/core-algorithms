@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import Set from '../src/Set'
 
-describe.only('set()', function(){
+describe('set()', function(){
   const mySet = new Set()
   const a = [1, 2, 3, 4]
   const b = [2, 4, 6, 8]
