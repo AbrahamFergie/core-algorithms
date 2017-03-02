@@ -25,7 +25,7 @@ export default function isConnectedGraph(graph){
     if(next === false){
       return false
     }
-    i++
+    i++ 
   }
   points.forEach(point => {
     if(!visited.includes(point)){
