@@ -1,7 +1,7 @@
 let visited = []
 const moveAround = function(point, paths){
   visited.push(point)
-  for(var i = 0; i <= paths.length; i++){
+  for(let i = 0; i <= paths.length; i++){
     if(!visited.includes(paths[i])){
       return paths[i]
     }
@@ -25,7 +25,7 @@ export default function isConnectedGraph(graph){
     if(next === false){
       return false
     }
-    i++ 
+    i++
   }
   points.forEach(point => {
     if(!visited.includes(point)){
